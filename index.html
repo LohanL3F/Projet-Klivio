@@ -24,7 +24,10 @@
         <nav id="navbar">
             <img class="nav-element logo-nav" src="Images/logo.png" alt="">
             <a class="nav-element link-nav" href="#">Les formations</a>
-            <input placeholder="Rechercher" class="nav-element input-nav" type="search">
+            <div class="search-bar">
+            <input placeholder="Rechercher" class="nav-element input-nav" type="text">
+            <img id="search-icon" src="Images/magnifying-glass-solid-full.svg" alt="">
+            </div>
             <div id="connect-buttons">
             <button class="nav-element button-nav">Connexion</button>
             <button class="nav-element button-nav2">Inscription</button>
@@ -40,15 +43,80 @@
         </header>
 
         <section id="first-section">
-            <h1 class="section-title">Formations populaires</h1>
             
+            <div class="title-position">
+            <h1 class="section-title">Les formations populaires</h1>
+            </div>
+
+            <div id="cards-contener">
             <div class="card">
                 <div class="card-img"></div>
-                <p class="card-price">15.99 €<span class="mini-price">60 €</span></p>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
                 <h1 class="card-title">Parler en public</h1>
                 <h2 class="card-subtitle">Sonia Lefèvre | Coach prise de parole</h2>
-                <!--ETOILES A AJOUTER PLUS TARD-->
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                </div>
                 <h2 class="card-subtitle">Gagnez en aisance et captez votre auditoire</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Gérer le stress</h1>
+                <h2 class="card-subtitle">Lucie Garnier | Formatrice</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star opacity" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Apprenez à rester serein face aux défis</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Travailler en équipe</h1>
+                <h2 class="card-subtitle">David Moreau | Expert</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Collaborez efficacement, même à distance</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Gérer son temps</h1>
+                <h2 class="card-subtitle">Claire Dumas | Coach organisation</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star opacity" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Optimisez vos journées et gagnez en efficacité</h2>
+            </div>
+
             </div>
             
 
@@ -56,6 +124,89 @@
         
         </section>
     
+        <section id="second-section">
+
+
+            <div class="title-position">
+            <h1 class="section-title">Les formations populaires</h1>
+            </div>
+
+            <div id="cards-contener">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Parler en public</h1>
+                <h2 class="card-subtitle">Sonia Lefèvre | Coach prise de parole</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Gagnez en aisance et captez votre auditoire</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Gérer le stress</h1>
+                <h2 class="card-subtitle">Lucie Garnier | Formatrice</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star opacity" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Apprenez à rester serein face aux défis</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Travailler en équipe</h1>
+                <h2 class="card-subtitle">David Moreau | Expert</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Collaborez efficacement, même à distance</h2>
+            </div>
+
+             <div class="card">
+                <div class="card-img"></div>
+                <div class="price-position">
+                <p class="card-price">15.99 € <span class="mini-price">60 €</span></p>
+                </div>
+                <h1 class="card-title">Gérer son temps</h1>
+                <h2 class="card-subtitle">Claire Dumas | Coach organisation</h2>
+                <div class="star-lines">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star" src="Images/star.svg" alt="">
+                    <img class="star opacity" src="Images/star.svg" alt="">
+                </div>
+                <h2 class="card-subtitle">Optimisez vos journées et gagnez en efficacité</h2>
+            </div>
+
+            </div>
+            
+
+            <button class="section-button">Voir plus de formations</button>
+        
+
+        </section>
     </div>
 </body>
 
