@@ -656,8 +656,11 @@ footer {
     display: flex;
     flex-direction: row;
     color: white;
-    padding: 50px;
+    padding: 15px;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    height: 65%;
 }
 
 #footer-logo {
@@ -665,10 +668,67 @@ footer {
     height: 87px;
 }
 
+.footer-ul {
+    color: white;
+    list-style: none;
+}
+
+.footer-li {
+    color: white;
+    display: flex;
+    align-items: center;  
+    gap: 8px;              
+    margin-bottom: 8px;    
+}
+
+.title {
+    font-weight: bold;
+}
+
+.footer-li-text {
+    color: white;
+    margin: 0;
+}
+
+.footer-icon {
+    width: 25px;
+}
+
+#footer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer-separator {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid var(--green);
+}
+
 #footer-second {
     display: flex;
     flex-direction: row;
     color: white;
-    padding: 50px;
+    padding: 15px;
     box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 35%;
+}
+
+#credits {
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+#footer-socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
