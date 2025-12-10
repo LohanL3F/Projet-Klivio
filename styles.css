@@ -39,6 +39,10 @@ body {
 
 /*  Partie navbar */
 
+#burger-menu {
+    display: none;
+}
+
 #navbar {
     width: 100%;
     height: 80px;
@@ -129,6 +133,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
     
 }
 
@@ -731,4 +736,62 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+/* Reponsive (à l'aide) */
+
+@media (max-width: 600px) {
+    
+    /* NAVBAR */
+
+    .search-bar {
+        display: none;
+    }
+
+    #connect-buttons {
+        display: none;
+    }
+
+    .link-nav {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+        width: 56px;
+        height: 56px;
+    }
+
+    #navbar {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* HERO */
+
+    #hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("Images/bg-header.png");
+    background-size: 350%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: 0;
+    background-position: center;
+    }
+
+    #hero {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* SECTION 1 */
+
+    #cards-contener {
+        flex-direction: column;
+    }
 }
