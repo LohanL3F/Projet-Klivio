@@ -231,11 +231,12 @@ body {
 
 .card {
     height: 362px;
-    width: 305px;
+    width: 21%;
+    min-width: 305px;
     position: relative;
     padding: 10px;
     overflow: hidden;
-    
+    gap: 20px;
 }
 
 .card-img {
@@ -339,7 +340,7 @@ body {
 /* SECTION 3 */
 
 #third-section {
-    height: 597px;
+    height: auto;
     width: auto;
     display: flex;
     align-items: center;
@@ -360,14 +361,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding-top: 50px;
     gap: 50px;
 }
 
 .client-card {
     width: 800px;
-    height: 306px;
+    height: auto;
     display: flex;
     flex-direction: column;
 
@@ -403,9 +404,10 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     padding: 50px;
-    height: 641px;
+    height: auto;
     width: 100%;
     background-color: var(--white2);
+    flex-wrap: wrap;
 }
 
 #fourth-content {
@@ -460,7 +462,7 @@ body {
 #fifth-section {
     display: flex;
     justify-content: center;
-    height: 641px;
+    height: auto;
     width: 100%;
     padding: 50px;
     background-color: var(--green);
@@ -519,7 +521,7 @@ body {
 
 #sixth-section {
     display: flex;
-    height: 740px;
+    height: auto;
     width: 100%;
     background-color: var(--white2);
     box-sizing: border-box;
@@ -561,7 +563,7 @@ body {
 /* SECTION 7 */
 
 #seventh-section {
-    height: 650px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -747,6 +749,93 @@ footer {
 
 /* Reponsive (à l'aide) */
 
+@media (max-width: 1580px){
+    /* SECTION 4 */
+
+    #fourth-section {
+        height: auto;
+        
+    }
+
+    #fourth-content {
+        height: auto;
+        width: 80%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fourth-ul {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    
+
+    #fourth-title {
+        position: relative;
+        text-align: center;
+    }
+
+    .fourth-section-img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* SECTION 5 */
+
+#fifth-section {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #fifth-content {
+        height: auto;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 80%;
+    }
+
+    #fifth-ul {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    
+    .fifth-section-img {
+        width: 80%;
+        height: auto;
+    }
+
+    .fifth-title {
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .fifth-section-img {
+        width: 80%;
+        height: auto;
+        margin-bottom: -85px;
+        margin-top: 25px;
+        align-items: center;
+    }
+
+    #fifth-title {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
     
     /* NAVBAR */
@@ -836,6 +925,7 @@ footer {
 
     #fourth-section {
         height: auto;
+        
     }
 
     #fourth-content {
