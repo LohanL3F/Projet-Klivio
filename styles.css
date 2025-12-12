@@ -527,6 +527,7 @@ body {
 #sixth-section {
     display: flex;
     height: auto;
+    min-height: 740px;
     width: 100%;
     background-color: var(--white2);
     box-sizing: border-box;
