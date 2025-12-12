@@ -71,6 +71,11 @@ body {
     height: 40px;
     border: 0px none;
     border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-nav:hover {
+    transform: scale(1.05) translateY(-1px);    
 }
 
 .button-nav2 {
@@ -81,7 +86,13 @@ body {
     height: 40px;
     border: 0px none;
     border-radius: 6px;
+    transition: all 0.3s ease-in-out;
 }
+
+.button-nav2:hover {
+    transform: scale(1.05) translateY(-1px);
+}
+
 
 .search-bar{
     position: relative;
@@ -186,6 +197,11 @@ body {
     border: 0px none;
     border-radius: 6px;
     font-weight: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+#hero-button:hover {
+    transform: scale(1.05) translateY(-1px);    
 }
 
 /* SECTION 1 */
@@ -316,6 +332,11 @@ body {
     height: 40px;
     border: 0px none;
     border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-button:hover {
+    transform: scale(1.05) translateY(-1px);
 }
 
 /* SECTION 2 */
@@ -650,6 +671,11 @@ body {
     font-size: 15px;
     font-weight: 500;
     margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+#seventh-button:hover {
+    transform: scale(1.05) translateY(-1px);
 }
 
 /* FOOTER */
