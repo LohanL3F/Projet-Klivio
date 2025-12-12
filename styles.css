@@ -167,6 +167,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin: 0;
+    text-align: center;
 }
 
 #hero-content {
@@ -202,7 +203,7 @@ body {
 }
 
 .title-position {
-    width: 85%;
+    width: 93%;
     display: flex;
 
 }
@@ -214,15 +215,18 @@ body {
     margin-bottom: 20px;
 }
 
-#cards-contener {
-    width: 85%;
+.cards-contener {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     flex-wrap: wrap;
+    gap: 1.5%;
+    box-sizing: border-box;
+    
 }
 
 .card-padding {
@@ -233,6 +237,7 @@ body {
     height: 365px;
     width: 21%;
     min-width: 305px;
+    max-width: 1000px;
     position: relative;
     padding: 10px;
     overflow: hidden;
@@ -785,7 +790,7 @@ footer {
 
     /* SECTION 5 */
 
-#fifth-section {
+    #fifth-section {
         height: auto;
         flex-direction: column;
         align-items: center;
@@ -834,6 +839,13 @@ footer {
     #fifth-title {
         display: none;
     }
+
+    /* FOOTER */
+
+    #footer-first {
+        flex-wrap: wrap;
+        height: auto;
+    }
 }
 
 @media (max-width: 600px) {
@@ -871,7 +883,7 @@ footer {
     position: absolute;
     inset: 0;
     background-image: url("Images/bg-header.png");
-    background-size: 350%;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
     z-index: 0;
@@ -887,16 +899,22 @@ footer {
 
     /* SECTION 1 */
 
-    #cards-contener {
+    .cards-contener {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .section-title {
         margin-bottom: 50px;
+        text-align: center;
     }
 
     #first-section {
     height: auto;
+    justify-content: center;
+    align-items: center;
     }
     /* SECTION 2 */
 
