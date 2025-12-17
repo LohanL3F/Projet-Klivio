@@ -208,16 +208,16 @@
 
         <!--🥪 🥪 🥪 🥪 🥪 (TROISIEME SECTION) 🥪 🥪 🥪 🥪 🥪-->
 
-        <section id="third-section" class="bg-[#3ab0ff] w-[100%] mt-[10%] shadow-[0px_10px_0px#000000] border-2 border-[#000000] h-[auto] p-[25px] flex flex-col justify-center items-center">
+        <section id="third-section" class="bg-[#3ab0ff] w-[100%] mt-[10%] border-2 border-[#000000] h-[500px] p-[25px] flex flex-col justify-center items-center">
 
-            <h2 id="third-title">AVIS CLIENTS</h2>
+            <h2 id="third-title" class="font-black text-[40px] text-white">AVIS CLIENTS</h2>
 
-            <div id="client-cards">
+            <div id="client-cards" class="flex flex-row gap-[5%] p-[25px]">
 
-                <div class="client-card">
-                    <img class="client-pfp" src="Images/juliette.png" alt="Photo client">
-                    <h2 class="client-title">Juliette</h2>
-                    <div class="star-lines">
+                <div class="bg-white shadow-[8px_10px_0px#000000] border-2 border-[#000000] h-[auto] w-[50%] p-[15px]">
+                    <img class="border-2 border-[#000000]" src="Images/juliette.png" alt="Photo client">
+                    <h2 class="font-bold text-[20px] uppercase">Juliette</h2>
+                    <div class="flex flex-row">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
@@ -227,10 +227,10 @@
                     <p class="client-text">J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
                 </div>
 
-                <div class="client-card">
-                    <img class="client-pfp" src="Images/camille.png" alt="Photo client">
-                    <h2 class="client-title">Camille</h2>
-                    <div class="star-lines">
+                <div class="bg-white shadow-[8px_10px_0px#000000] border-2 border-[#000000] h-[auto] w-[50%] p-[15px]">
+                    <img class="border-2 border-[#000000]" src="Images/camille.png" alt="Photo client">
+                    <h2 class="font-bold text-[20px] uppercase">Camille</h2>
+                    <div class="flex flex-row">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
                     <img class="w-[25px]" src="Images/star.svg" alt="Icone étoile">
@@ -246,75 +246,74 @@
 
         <!--🥪 🥪 🥪 🥪 🥪 (QUATRIEME SECTION) 🥪 🥪 🥪 🥪 🥪-->
 
-        <section id="fourth-section">
+        <section id="fourth-section" class="w-[90%] mt-[5%] h-[auto] p-[25px] flex justify-around">
 
-            <div id="fourth-content">
-                <div class="list-segment">
-                    <h2 id="fourth-title">LES AVANTAGES KLIVIO</h2>
+            <div id="fourth-content" class="flex flex-row-reverse w-[100%] justify-around items-center">
+                <div class="bg-white shadow-[8px_10px_0px#000000] border-2 border-[#000000] w-[40%] h-[80%] flex flex-col p-[25px] justify-center gap-[15%] text-center">
+                    <h2 id="fourth-title" class="text-[40px] uppercase font-black--">LES AVANTAGES KLIVIO</h2>
                     <ul id="fourth-ul">
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/arrow-up-right.svg" alt="Icone flèche">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/arrow-up-right.svg" alt="Icone flèche">
                             <p class="li-text">Suivi de sa progression</p>
                         </li>
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/edit-01.svg" alt="Icone crayon">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/edit-01.svg" alt="Icone crayon">
                             <p class="li-text">Exercices et QCM pour la mise en pratique</p>
                         </li>
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/download-02.svg" alt="Icone téléchargment">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/download-02.svg" alt="Icone téléchargment">
                             <p class="li-text">Possiblitié de télécharger/imprimer les formations</p>
                         </li>
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/star-02.svg" alt="Icone étoile">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/star-02.svg" alt="Icone étoile">
                             <p class="li-text">Contenu qualitatif et vérifié</p>
                         </li>
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/clock-backward.svg" alt="Icone horloge">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/clock-backward.svg" alt="Icone horloge">
                             <p class="li-text">Suivi en autonomie, 24h/24, 7j/7</p>
                         </li>
-                        <li class="fourth-li">
-                            <img class="list-img" src="Images/annotation-typing.svg" alt="Icone commentaire">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/annotation-typing.svg" alt="Icone commentaire">
                             <p class="li-text">Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
                         </li>
 
                     </ul>
                 </div>
-                <img class="fourth-section-img" src="Images/avantages.png" alt="Image avantages KLIVIO">
+                <img class="shadow-[8px_10px_0px#000000] border-2 border-[#000000]" src="Images/avantages.png" alt="Image avantages KLIVIO">
             </div>
 
         </section>
 
         <!--🥪 🥪 🥪 🥪 🥪 (CINQUIEME SECTION) 🥪 🥪 🥪 🥪 🥪-->
 
-        <section id="fifth-section">
-                  <h2 class="fifth-title mobile">CRÉEZ VOS FORMATIONS</h2>
-             <div id="fifth-content">
-                <div class="list-segment">
-                    <h2 id="fifth-title">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
+        <section id="fifth-section" class="w-[90%] mt-[5%] h-[auto] p-[25px] flex justify-around">
+             <div id="fifth-content" class="flex flex-row w-[100%] justify-around items-center">
+                <div class="bg-[#3ab0ff] shadow-[8px_10px_0px#000000] border-2 border-[#000000] w-[40%] h-[80%] flex flex-col p-[25px] justify-center gap-[15%] text-center">
+                    <h2 id="fifth-title" class="text-[40px] uppercase font-black--">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
                     <ul id="fifth-ul">
-                        <li class="fifth-li">
-                            <img class="list-img" src="Images/coin-hand.svg" alt="Icone pièce">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/coin-hand.svg" alt="Icone pièce">
                             <p class="li-text">Commission unique, au pourcentage sur les ventes</p>
                         </li>
-                        <li class="fifth-li">
-                            <img class="list-img" src="Images/heart.svg" alt="Icone coeur">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/heart.svg" alt="Icone coeur">
                             <p class="li-text">Mise en avant sur la plateforme</p>
                         </li>
-                        <li class="fifth-li">
-                            <img class="list-img" src="Images/pencil-01.svg" alt="Icone crayon">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/pencil-01.svg" alt="Icone crayon">
                             <p class="li-text">Contrôle total sur le cours : contenu, prix</p>
                         </li>
-                        <li class="fifth-li">
-                            <img class="list-img" src="Images/settings.svg" alt="Icone rouage">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/settings.svg" alt="Icone rouage">
                             <p class="li-text">Fonctionnalités avancées: espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
                         </li>
-                        <li class="fifth-li">
-                            <img class="list-img" src="Images/user-profile-square.svg" alt="Icone profil utilisateur">
+                        <li class="flex flex-row items-center">
+                            <img class="w-[30px]" src="Images/user-profile-square.svg" alt="Icone profil utilisateur">
                             <p class="li-text">Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d'auteur</p>
                         </li>
                     </ul>
                 </div>
-                <img class="fifth-section-img" src="Images/become-author.png" alt="Image création avantages">
+                <img class="shadow-[8px_10px_0px#000000] border-2 border-[#000000]" src="Images/become-author.png" alt="Image création avantages">
             </div>
 
         </section>
